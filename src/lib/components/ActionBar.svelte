@@ -50,16 +50,23 @@
     background-color: transparent;
   }
 
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 2vw; */
+  }
+
   svg,
   .svg {
-    width: 6.2vw;
-    height: 6.2vw;
+    width: 5.1vw;
+    height: 5.1vw;
     fill: #000;
     opacity: 0.8;
   }
 
   .icons_padding {
-    padding: 1vw;
+    padding: 1.5vw 1vw 0.5vw 1vw;
   }
 
   .icons_row {
