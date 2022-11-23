@@ -8,7 +8,7 @@
   export let image_src: string
   export let name: string
   export let price = ''
-  export let description: string = ''
+  export let description = ''
 </script>
 
 <div class="flex_column">
